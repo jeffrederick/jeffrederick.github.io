@@ -1,35 +1,35 @@
-const wrapper = document.querySelector(".wrapper");
+const wrapper = document.querySelector("wrapper");
 
-const question = document.querySelector(".question");
+const question document.querySelector(" question");
 
-const gif = document.querySelector(".gif");
+const gif document.querySelector(".gif");
 
-const yesBtn = document.querySelector(".yes-btn");
+const yesBtn = document.querySelector("yes-btn");
 
-const noBtn = document.querySelector(".no-btn");
+const noBtn = document.querySelector("no-btn");
 
-yesBtn.addEventListener("click", () => {
+yesatn.addEventListener("click", () = {
 
-question.innerHTML = "Aaaaa, I like you too";
+question, innerHTML = "Aaaaa, I like you too";
 
-gif.src =
+"https://raw.githubusercontent.com/DzarelDeveloper/Ing/main/gif.webp": });
 
-"https://raw.githubusercontent.com/DzarelDeveloper/Img/main/gif.webp"; });
+gtf.src
 
-noBtn.addEventListener("mouseover", () => {
+naBtn.addEventListener("mouseover", () = {
 
 const noBtnRect = noBtn.getBoundingClientRect();
 
-const maxX = window.innerWidth noBtnRect.width;
+const maxxwindow. Innerwidth-notoRect.width;
 
-const maxY = window.innerHeight - noBtnRect.height;
+const maxY= window.innerHeight notRect.height:
 
-const randomX = Math.floor(Math.random() * maxX);
+const randomX = Math.floor(Math.random() max);
 
-const randomY= Math.floor(Math.random() * maxY);
+const randomy = Math.floor(Math.random() * maxY);
 
-noBtn.style.left = randomX + "px";
+neBtn.style.left=randonx + "px";
 
-noBtn.style.top = randomY + "px";
+noBtn.style.top random + "px";
 
 });
